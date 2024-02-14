@@ -6,6 +6,8 @@ function Featured() {
         <div className="featured">
             <div className="container">
                 <div className="left">
+
+                    {/* create a website front page in which background color is green and right side is image present */}
                     <h1>
                         Find the perfect <span>freelance</span> services for your business
                     </h1>
@@ -16,6 +18,8 @@ function Featured() {
                         </div>
                         <button>Search</button>
                     </div>
+
+                    {/* after search button some buttons are present */}
                     <div className="popular">
                         <span>Popular:</span>
                         <button>Web Design</button>
@@ -24,6 +28,8 @@ function Featured() {
                         <button>AI Services</button>
                     </div>
                 </div>
+
+                {/* on right hand of the website the image is present so with the help of this a image is present */}
                 <div className="right">
                     <img src="./img/man.png" alt="" />
                 </div>
